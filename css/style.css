@@ -16,14 +16,18 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 15px;
   position: fixed;
   width: 420px;
   background-color: #000000;
 }
 
+nav .arrow-left {
+  font-size: 10px;
+}
+
 .restaurant-list {
-  padding-top: 57px;
+  padding-top: 45px;
   line-height: 20px;
 }
 
@@ -32,18 +36,25 @@ nav {
   font-weight: 600;
 }
 
-.arrow {
-  text-align: right;
-  padding-right: 20px;
-  padding-bottom: 10px;
-}
-
 .location {
   border: 1px solid #858486;
+  padding-bottom: 20px;
 }
 
 .content {
+  display: inline-block;
   line-height: 150%;
   padding-left: 20px;
   padding-top: 25px;
+}
+
+.location:hover, .content:hover {
+  background-color: #B4B2B4;
+}
+
+.arrow {
+  float: right;
+  display: inline-block;
+  font-size: 10px;
+  padding: 40px 12px 0px 0px;
 }
